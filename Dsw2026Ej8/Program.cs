@@ -16,6 +16,12 @@
 
             string resultado2 = p2.CrearResumenVenta(1001, "Coca Cola", -1, 1.50m);
             Console.WriteLine(resultado2);
+
+            //Problema 3
+            var producto = new Product("Descripcion original");
+            var p3 = new Problema3();
+            string resultado3 = p3.CompararCopias(5, producto);
+            Console.WriteLine(resultado3);
         }
     }
 }
