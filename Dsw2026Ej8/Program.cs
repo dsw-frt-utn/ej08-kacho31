@@ -37,6 +37,13 @@
 
             Console.WriteLine(p5.ObtenerImporteFinal(retail));
             Console.WriteLine(p5.ObtenerImporteFinal(wholesale));
+
+            //Problema 6
+            var p6 = new Problema6();
+
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x"));
+            Console.WriteLine(p6.NormalizarCodigoProducto(null));
+            Console.WriteLine(p6.NormalizarCodigoProducto(" coca cola"));
         }
     }
 }
