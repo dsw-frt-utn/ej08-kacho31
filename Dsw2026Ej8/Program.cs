@@ -28,6 +28,15 @@
             Console.WriteLine(p4.CalcularPromedio(8, 6, 10));
             Console.WriteLine(p4.CalcularPromedio(8, null, 10));
             Console.WriteLine(p4.CalcularPromedio(null, null, null));
+
+            //Problema 5
+            var p5 = new Problema5();
+
+            var retail = new RetailSale(100m);
+            var wholesale = new WholesaleSale(100m);
+
+            Console.WriteLine(p5.ObtenerImporteFinal(retail));
+            Console.WriteLine(p5.ObtenerImporteFinal(wholesale));
         }
     }
 }
