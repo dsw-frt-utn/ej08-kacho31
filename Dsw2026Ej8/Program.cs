@@ -22,6 +22,12 @@
             var p3 = new Problema3();
             string resultado3 = p3.CompararCopias(5, producto);
             Console.WriteLine(resultado3);
+
+            //Problema 4
+            var p4 = new Problema4();
+            Console.WriteLine(p4.CalcularPromedio(8, 6, 10));
+            Console.WriteLine(p4.CalcularPromedio(8, null, 10));
+            Console.WriteLine(p4.CalcularPromedio(null, null, null));
         }
     }
 }
